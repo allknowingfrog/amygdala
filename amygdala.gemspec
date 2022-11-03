@@ -28,11 +28,12 @@ Gem::Specification.new do |spec|
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  s.add_runtime_dependency "sinatra", ["~> 3.0"]
+  spec.add_runtime_dependency "sinatra", ["~> 3.0"]
 
-  s.add_development_dependency "rake", ["~> 13.0"]
-  s.add_development_dependency "rspec", ["~> 3.0"]
+  spec.add_development_dependency "rake", ["~> 13.0"]
+  spec.add_development_dependency "rspec", ["~> 3.0"]
+  spec.add_development_dependency "rack-test", ["~> 2.0"]
 
-  s.add_development_dependency "lefthook", ["~> 1.1"]
-  s.add_development_dependency "standard", ["~> 1.3"]
+  spec.add_development_dependency "lefthook", ["~> 1.1"]
+  spec.add_development_dependency "standard", ["~> 1.3"]
 end
