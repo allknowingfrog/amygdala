@@ -6,8 +6,8 @@ Gem::Specification.new do |spec|
   spec.authors = ["Jeremiah A. Bohling"]
   spec.email = ["jeremiah.bohling@gmail.com"]
 
-  spec.summary = "A \"Lizard Brain\" for your BattleSnake"
-  spec.description = "A simple framework for developing a BattleSnake API"
+  spec.summary = "A \"Lizard Brain\" for your Battlesnake"
+  spec.description = "A simple framework for developing a Battlesnake API"
   spec.homepage = "https://github.com/allknowingfrog/amygdala"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
