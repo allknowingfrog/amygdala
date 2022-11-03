@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 RSpec.describe Amygdala do
   it "has a version number" do
     expect(Amygdala::VERSION).not_to be nil
