@@ -3,6 +3,8 @@ require "json"
 
 module Amygdala
   class Server < Sinatra::Base
+    enable :logging
+
     set :default_content_type, :json
 
     get "/" do
